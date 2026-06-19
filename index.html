@@ -1,51 +1,293 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Franck Huberson KANGAH </title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+    <title>Franck Huberson KANGAH | Développeur Full Stack & Data Scientist</title>
+
+    <meta name="description"
+        content="Portfolio de Franck Huberson KANGAH, Développeur Full Stack et Data Scientist spécialisé en développement web, Big Data et Intelligence Artificielle.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
+
 <body>
+
+    <!-- HEADER -->
     <header>
+
         <nav class="navbar">
-            <ul>
+
+            <div class="logo">
+                <a href="index.html">Franck Dev</a>
+            </div>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links">
                 <li><a href="index.html" class="active">Accueil</a></li>
-                <li><a href="a_propos.html">A propos</a></li>
+                <li><a href="a_propos.html">À propos</a></li>
                 <li><a href="projets.html">Projets</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="fichiers/fiche_demande.pdf" target="_blank">Curriculum Vitae</a></li>
+                <li>
+                    <a href="fichiers/KANGAH_Franck_Huberson_CV.pdf"
+                        target="_blank">
+                        CV
+                    </a>
+                </li>
             </ul>
+
         </nav>
+
     </header>
-    <main class="container">
-        <section class="intro">
-            <div class="text">
+
+    <!-- MA PERSONNALITE -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-text" data-aos="fade-right">
+
                 <h1>Franck Huberson KANGAH</h1>
-                <h2>DATA ANALYST / DEVELOPPEUR D"APLICATION</h2>
-                <P>je suis Data Analyst et Développeur. je possède des compétences en 
-                <strong>Excel, SQL, Machine learning</strong> , ainsi qu'en <strong>Développement dAppliation'</strong>.
-                Vous pouvez consulter mon portfolio personnel
-                <a href="projets.html" class="ptf">ici</a> ou télécharger mon CV ci dessous.
-                </P>
-                <a href="fichiers/fiche_demande.pdf" class="btn" download="">Télécharger le CV</a>
+
+                <h2>
+                    Développeur Full Stack
+                    <span>|</span>
+                    Data Scientist
+                </h2>
+
+                <p>
+                    Passionné par les technologies numériques,
+                    le Big Data et l'intelligence artificielle,
+                    je développe des applications web modernes
+                    et exploite les données pour créer des solutions
+                    innovantes à forte valeur ajoutée.
+                </p>
+
+                <p>
+                    Mes compétences couvrent le développement web,
+                    l'analyse de données, le Machine Learning
+                    et la conception de solutions numériques
+                    adaptées aux besoins des entreprises.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="projets.html" class="btn">
+                        <i class="fas fa-code"></i>
+                        Voir mes projets
+                    </a>
+
+                    <a href="fichiers/KANGAH_Franck_Huberson_CV.pdf"
+                        download="CV_Franck_Huberson_KANGAH.pdf"
+                        class="btn secondary">
+
+                        <i class="fas fa-download"></i>
+                        Télécharger mon CV
+
+                    </a>
+
+                </div>
+
             </div>
-            <div class="photo">
-                <img src="images/photo.png" alt="Franck Huberson KANGAH">
+
+            <div class="hero-image" data-aos="fade-left">
+
+                <img
+                    src="images/photo.jpeg"
+                    alt="Franck Huberson KANGAH">
+
             </div>
+
         </section>
+
+        <!-- COMPETENCES -->
+
+        <section class="skills">
+
+            <h2 data-aos="fade-up">
+                Mes Compétences
+            </h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card" data-aos="zoom-in">
+
+                    <i class="fas fa-code"></i>
+
+                    <h3>Développement Web</h3>
+
+                    <p>
+                        React, Next.js, Laravel,
+                        Node.js, HTML5, CSS3,
+                        JavaScript.
+                    </p>
+
+                </div>
+
+                <div class="skill-card" data-aos="zoom-in">
+
+                    <i class="fas fa-database"></i>
+
+                    <h3>Data Science</h3>
+
+                    <p>
+                        Python, SQL,
+                        Machine Learning,
+                        Big Data Analytics.
+                    </p>
+
+                </div>
+
+                <div class="skill-card" data-aos="zoom-in">
+
+                    <i class="fas fa-chart-line"></i>
+
+                    <h3>Analyse de Données</h3>
+
+                    <p>
+                        Excel,
+                        Power BI,
+                        Visualisation de données
+                        et reporting.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PROJETS -->
+
+        <section class="projects">
+
+            <h2 data-aos="fade-up">
+                Projets Récents
+            </h2>
+
+            <div class="project-grid">
+
+                <article
+                    class="project-card"
+                    data-aos="fade-up">
+
+                    <img
+                        src="images/projet1.png"
+                        alt="Amaya News">
+
+                    <div class="project-content">
+
+                        <h3>Amaya News</h3>
+
+                        <p>
+                            Plateforme d'actualités
+                            moderne développée
+                            avec React et FastAPI utilisant une base de données MongoDB.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article
+                    class="project-card"
+                    data-aos="fade-up">
+
+                    <img
+                        src="images/projet2.png"
+                        alt="E-commerce">
+
+                    <div class="project-content">
+
+                        <h3>E-commerce</h3>
+
+                        <p>
+                            Application de commerce fesant la promotion des produits
+                            artisanaux fabriqués en côte d'Ivoire.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article
+                    class="project-card"
+                    data-aos="fade-up">
+
+                    <img
+                        src="images/projet3.png"
+                        alt="Big Data">
+
+                    <div class="project-content">
+
+                        <h3>Projet Big Data</h3>
+
+                        <p>
+                            Optimisation d'un système
+                            de détection de blanchiment
+                            avec LightGBM et GAT.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
     </main>
+
+    <!-- FOOTER -->
+
     <footer>
+
         <div class="social-icons">
-            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/franck-huberson-kangah-142415282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://wa.me/2250102030405" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-            <a href="mailto:contact@example.com"><i class="fas fa-envelope"></i></a>
+
+            <a href="https://www.linkedin.com/in/franck-huberson-kangah-142415282"
+                target="_blank">
+
+                <i class="fab fa-linkedin-in"></i>
+
+            </a>
+
         </div>
-    <p>© Franck Huberson KANGAH - Data Analyst / Développeur d'Application</p>
-</footer>
+
+        <p>
+            © 2026 Franck Huberson KANGAH
+        </p>
+
+        <p>
+            Développeur Full Stack & Data Scientist
+        </p>
+
+    </footer>
+
+    <!-- JS -->
+
+    <script src="js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
 </body>
+
 </html>

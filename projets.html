@@ -1,11 +1,290 @@
+```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Mes Projets | Franck Huberson KANGAH</title>
+
+    <meta name="description"
+        content="Découvrez les projets de Franck Huberson KANGAH en développement web, Big Data et Data Science.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
+
 <body>
-    <h1>Aucun projet n'a été ajouté pour l'instant</h1>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <a href="index.html">Franck KANGAH</a>
+            </div>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a_propos.html">À propos</a></li>
+                <li><a href="projets.html" class="active">Projets</a></li>
+                <li>
+                    <a href="fichiers/KANGAH_Franck_Huberson_CV.pdf"
+                       target="_blank">
+                        CV
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- MA PERSONNALITE -->
+
+    <section class="hero">
+
+        <div class="hero-text" data-aos="fade-right">
+
+            <h1>Mes Projets</h1>
+
+            <p>
+                Découvrez quelques réalisations illustrant mes compétences
+                en développement web, analyse de données, intelligence
+                artificielle et Big Data.
+            </p>
+
+        </div>
+
+        <div class="hero-image" data-aos="fade-left">
+
+            <img src="images/photo.jpeg"
+                 alt="Franck Huberson KANGAH">
+
+        </div>
+
+    </section>
+
+    <!-- PROJETS -->
+
+    <section class="projects">
+
+        <h2 data-aos="fade-up">
+            Réalisations
+        </h2>
+
+        <div class="project-grid">
+
+            <!-- Projet 1 -->
+
+            <article class="project-card"
+                     data-aos="zoom-in">
+
+                <img src="images/projet1.png"
+                     alt="Amaya News">
+
+                <div class="project-content">
+
+                    <h3>Amaya News</h3>
+
+                    <p>
+                        Plateforme d'actualités développée
+                        avec React et Laravel permettant
+                        la publication et la consultation
+                        d'articles en ligne.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="https://www.amayanews.com"
+                           class="btn">
+                            <i class="fas fa-eye"></i>
+                            Site
+                        </a>
+
+                        <a href="https://github.com/franckhuberson/news_app"
+                           class="btn secondary">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- Projet 2 -->
+
+            <article class="project-card"
+                     data-aos="zoom-in">
+
+                <img src="images/projet2.png"
+                     alt="Plateforme E-commerce">
+
+                <div class="project-content">
+
+                    <h3>Plateforme E-commerce</h3>
+
+                    <p>
+                        Projet collectif tutoré réalisé
+                        à l'UVCI pour promouvoir les
+                        artisans ivoiriens à travers
+                        une plateforme numérique.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#"
+                           class="btn">
+                            <i class="fas fa-eye"></i>
+                            Démo
+                        </a>
+
+                        <a href="#"
+                           class="btn secondary">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- Projet 3 -->
+
+            <article class="project-card"
+                     data-aos="zoom-in">
+
+                <img src="images/projet3.png"
+                     alt="Big Data Analytics">
+
+                <div class="project-content">
+
+                    <h3>Détection de Blanchiment</h3>
+
+                    <p>
+                        Projet de Master Big Data Analytics
+                        utilisant un modèle hybride
+                        LightGBM + GAT pour améliorer
+                        la détection de transactions suspectes.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="https://github.com/franckhuberson/memoire_master"
+                           class="btn">
+                            <i class="fas fa-file-alt"></i>
+                            Détails
+                        </a>
+
+                        <a href="https://github.com/franckhuberson/LBC-FT"
+                           class="btn secondary">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- SECTION TECHNOLOGIES -->
+
+    <section class="skills">
+
+        <h2 data-aos="fade-up">
+            Technologies Utilisées
+        </h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card" data-aos="fade-up">
+                <i class="fab fa-react"></i>
+                <h3>React / Next.js</h3>
+                <p>Interfaces modernes et performantes.</p>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up">
+                <i class="fab fa-laravel"></i>
+                <h3>Laravel</h3>
+                <p>Applications web robustes et sécurisées.</p>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up">
+                <i class="fas fa-database"></i>
+                <h3>MySQL / MongoDB</h3>
+                <p>Gestion et exploitation des données.</p>
+            </div>
+
+            <div class="skill-card" data-aos="fade-up">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <p>Data Science, IA et automatisation.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="social-icons">
+
+            <a href="https://www.linkedin.com/in/franck-huberson-kangah-142415282"
+               target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+
+        </div>
+
+        <p>
+            © <span id="current-year"></span>
+            Franck Huberson KANGAH
+        </p>
+
+        <p>
+            Développeur Full Stack & Data Scientist
+        </p>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
 </body>
+
 </html>
+```
